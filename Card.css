@@ -1,0 +1,380 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.card{
+    background-color:  rgb(66, 88, 184);
+    color: rgb(0, 0, 0);
+    width:30%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30%;
+    box-sizing: border-box;
+    display: block;
+}
+h1{
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    box-sizing: border-box;
+    
+}
+.imga{
+    text-align: center;
+    box-sizing: border-box;
+}
+.imga img{
+width: 180px;
+height: 130px;
+text-align: center;
+border-radius: 30%;
+margin: 20px;
+/* padding: 20px; */
+box-sizing: border-box;
+}
+
+
+.btn2{
+    background-color: dodgerblue;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-size: medium;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 20px;
+    }
+a:hover{
+background-color:  rgb(197, 204, 184);
+font-size: 30px;
+color: black;
+}
+button:hover{
+background-color:  rgb(20, 20, 20);
+color: rgb(201, 75, 75);
+}
+.card:hover{
+    background-color: rgb(157, 181, 212);
+color: rgb(14, 13, 13);
+}
+
+.container{
+display: flex;
+margin:auto;
+padding: 30px;
+box-sizing: border-box;
+justify-content: center;
+
+}
+
+header a{
+    width: 200px;
+    margin: 5px;
+    padding: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(28, 29, 31);
+    box-sizing: border-box;
+   
+}
+
+
+header{
+    /* background-color: rgb(97, 112, 128); */
+    box-sizing: border-box;
+}
+ header{
+    display: flex;
+    justify-content: right;
+}
+header ul li {
+    display: inline-block ;
+    margin-right: 100px;
+    margin-top: 30px;
+
+}
+
+.box{
+    display: grid;
+         
+    grid-template-columns: 15% 85% ;   
+    box-sizing: border-box; 
+}
+#b1{
+    display: flex;
+    justify-content: end  ;
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+#b1 h1{
+    text-align: center;
+    padding: 100px;
+    box-sizing: border-box;
+}
+#b1 img{
+    border: 1px solid black;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-left: 100px;
+    line-height: 20px;
+    
+}
+#b3 div{
+    
+        width: 35px;
+        height: 5px;
+        background-color: black;
+        margin: 6px 0;
+        box-sizing: border-box;
+
+      
+}
+
+.w1 img{
+     border-radius: 50%;
+    /* background-color: black; */
+    width: 45px;
+    height: 45px;
+    margin: 5px;
+    /* box-sizing: border-box; */
+}
+
+
+
+.star { 
+    color:rgb(238, 255, 0);
+    box-sizing: border-box;
+    
+}
+
+
+/* .icon{
+    margin:10px;
+    line-height: 20px;
+} */
+.bars ul li {
+    display: none;
+}
+
+@media (max-width:1000px) {
+    #b1{
+        justify-content: start;
+        /* margin-left: 20px; */
+    }
+    header ul li {
+    
+       display: flex;
+       flex-direction: row-reverse;
+    }
+   
+    /* .bars ul li{
+        display: none;
+    } */
+   
+    .imga img{
+        width: 150px;
+        height: 150px;
+        border-radius: 20%;
+        margin: 20px;
+       
+        }
+        .w1 img{
+            border-radius: 50%;
+           /* background-color: black; */
+           width: 30px;
+           height: 30px;
+           margin: 5px;
+           /* box-sizing: border-box; */
+       }
+       
+.btn2{
+    background-color: dodgerblue;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-size:100px;
+    /* box-sizing: border-box; */
+    border-radius: 20px;
+    font-size: 20px;
+    }
+        .card{
+            /* display: flex;
+            flex-direction: column; */
+            width: 80%;
+            height: 80%;
+            /* align-items: center; */
+            justify-content: center;
+
+        }
+      
+}
+
+@media (max-width:550px) {
+    #b1{
+        justify-content: start;
+    }
+    header ul li {
+       display: none;
+    }
+    .bars ul li {
+        display: flex;
+       position: absolute;
+          
+     }
+     .imga img{
+        width: 100px;
+        height: 100px;
+        border-radius: 20%;
+        margin: 20px;
+       
+        }
+        
+   
+        .w1 img{
+            border-radius: 50%;
+           /* background-color: black; */
+           width: 60px;
+           height: 60px;
+           margin: 5px;
+           /* box-sizing: border-box; */
+       }
+       
+.btn2{
+    background-color: dodgerblue;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-size:100px;
+    /* box-sizing: border-box; */
+    border-radius: 20px;
+    font-size: 20px;
+    }
+        
+        .card{
+            
+            width: 80%;
+            height: 80%;
+
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container{
+            display: block;
+            justify-content: center;
+        }
+    
+ 
+    
+
+}
+
+@media (max-width:450px) {
+    #b1{
+        justify-content: start;
+    }
+    header ul li {
+       display: none;
+    }
+    .bars ul li {
+        display: flex;
+       /* position: absolute; */
+          
+     }
+ 
+     .imga img{
+        width: 150px;
+        height: 150px;
+        border-radius: 20%;
+        margin: 20px;
+       
+        }
+        .w1 img{
+            border-radius: 50%;
+           /* background-color: black; */
+           width: 30px;
+           height: 30px;
+           margin: 5px;
+           /* box-sizing: border-box; */
+       }
+       
+.btn2{
+    background-color: dodgerblue;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    font-size:100px;
+    /* box-sizing: border-box; */
+    border-radius: 20px;
+    font-size: 20px;
+    }
+        .card{
+            
+            /* width: 70%;
+            height: 70%; */
+            justify-content: center;
+          
+        }
+
+        .container{
+            display: block;
+        }
+    
+ 
+    
+
+}
+/* @media (max-width:1500px) {
+    a{
+        display: none;
+        width: 5px;
+        size: 40px;
+
+    }
+    .box1 a{
+            display: none;
+        }
+        
+}
+
+    @media(max-width:1500px)
+        {
+            #bars,a,header{
+                display: block;
+                
+               justify-content: center; 
+               display: flex;
+               flex-direction: row-reverse;
+            }
+            .box1{
+                display: block; 
+                width: 50px;
+                justify-content: right;
+            }
+        }
+        @media(min-width:500px) 
+        {
+            .card,.add{
+                display: block;
+            
+             
+            }
+            h2,h3{
+                display: block; 
+            }
+            .imga img{
+                display: block; 
+            }
+            .container{
+                display: block; 
+             
+            }
+        } */
